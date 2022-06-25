@@ -1,0 +1,9 @@
+name: 'stackoverflow-stats-box'
+author: "mars_hsu"
+description: 'Update a pinned gist to show your latest stackoverflow personal state'
+branding:
+  icon: 'coffee'  
+  color: 'purple'
+runs:
+  using: 'node16'
+  main: 'index.js'

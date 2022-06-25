@@ -1,0 +1,23 @@
+{
+  "name": "stackoverflow-stats-box",
+  "version": "1.0.0",
+  "description": "Update a pinned gist to show your latest stackoverflow personal state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pudding124/stackoverflow-stats-box.git"
+  },
+  "author": "Mars_Hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pudding124/stackoverflow-stats-box/issues"
+  },
+  "homepage": "https://github.com/Pudding124/stackoverflow-stats-box#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "octokit": "^1.8.0"
+  }
+}
