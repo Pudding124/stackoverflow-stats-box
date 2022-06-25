@@ -1,6 +1,5 @@
 const axios = require('axios');
 const { Octokit } = require("octokit");
-const table = require("text-table");
 
 const {
   GIST_ID, GT_TOKEN, USERID,
