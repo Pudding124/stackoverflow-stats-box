@@ -30,7 +30,7 @@ async function update_gist(user_data, user_ques, user_ans, user_top_tag) {
   answers = String("Answers:").padEnd(12) + user_ans.total
 
   content_table = [
-    `❤️  ${tags}❤️`,
+    `❤️ ${tags}❤️`,
     `--- Stack Overflow Stats ---`,
     `🥇 ${gold}| ${reputation}`,
     `🥈 ${silver}| ${questions}`,
