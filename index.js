@@ -49,7 +49,7 @@ async function update_gist(user_data, user_ques, user_ans, user_top_tag) {
   console.log(content_table)
 }
 
-async function query_leetcode() {
+async function query_stackoverflow() {
   const headers = {
     "content-type": "application/json"
   };
@@ -73,4 +73,4 @@ async function query_leetcode() {
   await update_gist(user_result.data, user_ques_result.data, user_ans_result.data, user_top_tag.data)
 };
 
-query_leetcode()
+query_stackoverflow()

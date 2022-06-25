@@ -1,7 +1,7 @@
-<!-- <p align="center">
-   <img src="https://i.imgur.com/dIHYraR.png" alt="screenshot" width="500">
+<p align="center">
+   <img src="https://imgur.com/U6IV5Ka.png" alt="screenshot" width="500">
   <h3 align="center">📌 Stack Overflow Stats Box </h3>
-</p> -->
+</p>
 
 <p align="center">
    <img src="https://img.shields.io/github/license/Pudding124/stackoverflow-stats-box"/>
@@ -15,7 +15,7 @@
 
 ## Overview
 
-Show how many Leetcode problems you have solved. 
+Show your stack overflow personal data, include top tag, badges and stats. 
 
 ### Prep work
 
@@ -32,7 +32,8 @@ Show how many Leetcode problems you have solved.
    - **GT_TOKEN:** The personal access token generated above.
    - **GIST_ID:** The ID portion from your gist url:
      ex: https://gist.github.com/Pudding124/**af7077999686aeac5df7963906bbba93**
-   - **USERNAME:** The user name of your stackoverflow id name
+   - **USERID:** your stackoverflow user id, you can find it from your personal stackoverflow page
+     ex: https://stackoverflow.com/users/**8601026**/mars
 
 5. [Pin your gist](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile)
 6. Wait for it to update (the github aciton cron job will run every 6 hours), or you can manually push the repo to trigger the action.
